@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+nav, footer, header, aside {
+ display: block; }
+
+ html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+ .menu {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     }
+  .menu__list {
+     margin: 0 10px 0 0;
+     padding: 0;
+     display: inline;
+     }
+
+.about__body {
+  max-width: 823px;
+  margin: 0px auto; }
+
+.about__header {
+  margin: 0px 0px 65px 0px; }
+
+.about__title {
+  margin: 0px 0px 30px 0px; }
+
+.menu{
+	font-size: 19px;
+line-height: 32px;
+color: #333333;
+font-family: "Georgia";}
+
+.about__title{
+	font-size: 36px;
+line-height: 42px;
+color: #333333;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+.about__text{
+	width: 561px;
+height: 198px;
+font-size: 19px;
+line-height: 32px;
+color: #555555;
+font-family: "Georgia";
+}
+
+.about__row{
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0;
+  margin: 0px -15px;
+}
+
+.about__column {
+  padding: 0px 15px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.333%;
+  flex: 0 0 33.333%; }
+
+.item-about__title{
+	font-size: 22px;
+line-height: 32px;
+color: #333333;
+font-weight: 700;
+font-family: "Open Sans";
+}
+
+.item-about__text{
+width: 285px;
+height: 565px;
+font-size: 16px;
+line-height: 28px;
+color: #555555;
+font-family: "Georgia";
+}
+
+.item-about__icon{
+
+}
+
+.about__photo{
+	width: 190px;
+height: 285px;
+border-radius: 5px;
+background-color: #132d36;
+}
+
+h1{
+	font-size: 48px;
+line-height: 42px;
+color: #333333;
+font-weight: 700;
+font-family: "Open Sans";
+}
+
+.header{
+	font-size: 24px;
+line-height: 32px;
+color: #15a98c;
+font-weight: 600;
+font-family: "Open Sans";
+}
+
+.list{
+	width: 330px;
+height: 260px;
+font-size: 19px;
+line-height: 36px;
+color: #555555;
+font-family: "Georgia";
+
+}
+
+.site
+{
+	width: 562px;
+height: 263px;
+font-size: 19px;
+line-height: 32px;
+color: #15a98b;
+font-family: "Georgia"
+}
+.site::after
+{
+	content:'\2192';
+}
+
+
+
